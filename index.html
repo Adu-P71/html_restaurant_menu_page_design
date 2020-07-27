@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="homestyle.css">
+  <link rel="stylesheet" href="responsivehome.css">
+  <link rel="stylesheet" href="form.css">
+  <title>Restaurant</title>
+</head>
+<body>
+
+  <div class="backimage"></div>
+  <div class="black"></div>
+  <header id="header">
+    <div class="logo">
+      <a href="/">DAV <span> FOODS</span></a>
+    </div>
+    <div class="links">
+      <span id="register">Register</span>
+      <span id="signIn">Sign In</a>
+    </div>
+  </header>
+    <section class="text-container">
+      <div class="container">
+        <p class="welcome white-color">Welcome</p>
+        <p class="username">DAVID</p>
+        <p class="text white-color">to kofi swimmer food delivery services</p>
+       <p class="button"><a href="menu.html" class="order">Make an order</a></p> 
+      </div>
+    </section>
+    <div class="about">
+      <header>
+        <h1 class="heading">about us</h1>
+      </header>
+      <p>
+         I'm baby meggings twee health goth +1.Bicycle rights tumeric\nchartruse
+          before they sold our chamberlain pop-up .Shaman humblebrag every morning"
+          I'm baby meggings twee health goth +1.Bicycle rights tumeric\nchartruse
+          before they sold our chamberlain pop-up .Shaman humblebrag every morning"
+          I'm baby meggings twee health goth +1.Bicycle rights tumeric\nchartruse
+          before they sold our chamberlain pop-up .Shaman humblebrag every morning"
+      </p>
+      <div class="contact">
+        <h3>Tel: 0547996005</h3>
+        <h4>Email: davidswimmer71@gmail.com</h4>
+      </div>
+    </div>
+    <div id="form-container" class="form-container register">
+      <div class="header">
+        <h2>Register</h2>
+      </div>
+      <form action="/register" method="POST" id="registration" class="form">
+        <div class="form-control ">
+          <label for="firstname">Firstname</label>
+          <input type="text" id="firstname" name="firstname" placeholder="Lucy">
+          <i class="fas fa-check">o</i>
+          <i class="fas fa-exclamation">o</i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control ">
+          <label for="lastname">Lastname</label>
+          <input type="text" id="lastname" name="lastname" placeholder="Davids">
+          <i class="fas fa-check">o</i>
+          <i class="fas fa-exclamation">o</i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control ">
+          <label for="telephone">Telephone</label>
+          <input type="tel" id="telephone" name="telephone" placeholder="Davids">
+          <i class="fas fa-check">o</i>
+          <i class="fas fa-exclamation">o</i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control ">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="dadupoku3@mail.com">
+          <i class="fas fa-check">o</i>
+          <i class="fas fa-exclamation">o</i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="password">
+          <i class="fas fa-check">o</i>
+          <i class="fas fa-exclamation">o</i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password2">Password check</label>
+          <input type="password" id="password2" placeholder="repeat password">
+          <i class="fas fa-check">o</i>
+          <i class="fas fa-exclamation">o</i>
+          <small>Error message</small>
+        </div>
+        <input type="submit" value="sign Up" class="submit">
+      </form>
+    </div>
+    <div class="form-container login">
+      <div class="header">
+        <h2>Sign In</h2>
+      </div>
+      <form action="/users/signUp" method="POST" id="loginform" class="form">
+        <div class="form-control ">
+          <label for="telephone">Telephone</label>
+          <input type="tel" id="telephone" name="telephone" placeholder="Davids">
+          <i class="fas fa-check">o</i>
+          <i class="fas fa-exclamation">o</i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="password">
+          <i class="fas fa-check">o</i>
+          <i class="fas fa-exclamation">o</i>
+          <small>Error message</small>
+        </div>
+        <input type="submit" value="login" class="submit">
+        <p><a href="">Forgotten password?</a></p>
+      </form>
+    </div>
+    <script src="reg_form_validation.js"></script>
+    <script src="login_form.js"></script>
+</body>
+</html>
