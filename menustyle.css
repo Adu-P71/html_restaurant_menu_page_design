@@ -8,8 +8,11 @@
   text-decoration: none;
   
 }
+body {
+  background: rgba(228, 225, 225, 0.87);
+}
 .main-container {
-  margin-top: 140px;
+  margin-top: 150px;
   width: 100%;
   padding-top: 20px;
   background: rgba(228, 225, 225, 0.87);
@@ -18,7 +21,7 @@
 }
 /* header  */
 header {
-  padding-top: .5rem;
+  padding-top: 5px;
   /* background: rgb(247, 238, 238); */
   /* background-image: url(../../backfood1.jpg); */
   width: 100%;
@@ -28,7 +31,7 @@ header {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
   text-transform: capitalize;
-  height: 140px;
+  height: 150px;
   box-shadow: 8px 0px 8px rgb(199, 193, 193);
 }
 #header {
