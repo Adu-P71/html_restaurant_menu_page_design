@@ -16,7 +16,7 @@ body {
   width: 100%;
   padding-top: 20px;
   background: rgba(228, 225, 225, 0.87);
-
+  overflow:hidden;
   min-height: calc(100vh - 100px);
 }
 /* header  */
