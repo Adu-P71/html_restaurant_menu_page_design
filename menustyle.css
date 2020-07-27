@@ -1,0 +1,164 @@
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+}
+.main-container {
+  margin-top: 140px;
+  width: 100%;
+  padding-top: 20px;
+  background: rgba(228, 225, 225, 0.87);
+
+  min-height: calc(100vh - 100px);
+}
+/* header  */
+header {
+  padding-top: .5rem;
+  /* background: rgb(247, 238, 238); */
+  /* background-image: url(../../backfood1.jpg); */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  text-transform: capitalize;
+  height: 140px;
+  box-shadow: 8px 0px 8px rgb(199, 193, 193);
+}
+#header {
+  background: url(backfood3.jpg);  
+}
+header h1 {
+  letter-spacing: 3px;
+  color:  rgb(204, 189, 103);
+  font-size: 2.5rem;
+}
+/* .under {
+    margin: .7em auto 0;
+    height: 4px;
+    width: 80px;
+    background-color: rgb(209, 186, 55);
+} */
+header .underline {
+  margin: .7em auto 0;
+  height: 4px;
+  width: 80px;
+  /* background-color:#1a4449; */
+  background-color:  rgb(204, 189, 103);
+}
+/* dummy */
+/* .class {
+  background: #ffffff;
+  width: 90%;
+  margin:12rem auto ;
+  box-shadow: 5px 5px 5px rgb(107, 110, 112),
+              -5px -5px 5px rgb(107, 110, 112);
+  line-height: 22px;
+  padding: .5rem;
+  color: rgb(107, 110, 112);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+
+/* options buttons  */
+.options {
+  text-align: center;
+  width: 500px;
+  margin: 1.5rem auto 0;
+}
+.btn {
+  /* color: rgb(209, 186, 55); */
+  background: #1a4449b2;
+
+  color: #e7edee;
+  color:  rgb(204, 189, 103);
+  font-size: .9em;
+  border: 2px solid #1a4449b6;
+  border-radius: 12px;
+  padding: .6em 1em;
+  margin: 0 .5em;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 300ms, color 300ms;
+}
+.btn:hover {
+  background: #1a4449;
+  color:  rgb(197, 173, 38);
+}
+/*section: items container  */
+.items-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* food items  */
+.food-item {
+  display: flex;
+  height: 170px;
+  width: 50%;
+  margin-bottom: 1rem;
+ 
+  /* padding-right: .5em; */
+}
+
+/* .show-height {
+  transition: 2s;
+
+  height: 170px;
+
+} */
+.black {
+  color: white;
+  background: black;
+  padding: .5rem 1rem;
+  border-radius: 10px;
+}
+ .food-image {
+  cursor: pointer;
+  height: 160px;
+  flex: 1;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgba(146, 139, 139, 0.904) ;
+  transition:400ms;
+  overflow: hidden;
+}
+.food-image img {
+  height: 100%;
+  width: 100%;
+}
+.description {
+  flex: 1.4;
+  /* display: inline; */
+  padding-left: .5rem;
+  padding-right: .5em;
+}
+.description .description-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: .3rem;
+  border-bottom: 2px solid#1A4449;
+}
+.description-header .food-name, .description-header .food-price  {
+  font-size: .9em;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 3px;
+}
+.description-header .food-price {
+  color:#1A4449;
+} 
+.description .food-comments {
+  font-family: Arial, Helvetica, sans-serif;
+  color:  #1a4449;
+  margin: .5rem 0 0;
+  line-height: 22px;
+  font-size: .9em;
+}
