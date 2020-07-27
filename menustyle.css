@@ -34,6 +34,13 @@ header {
   height: 150px;
   box-shadow: 8px 0px 8px rgb(199, 193, 193);
 }
+header a {
+  position: absolute;
+  top:.5rem;
+  left:.5rem;
+  color:white;
+}
+   
 #header {
   background: url(backfood3.jpg);  
 }
